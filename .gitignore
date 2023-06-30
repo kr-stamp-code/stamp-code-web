@@ -1,0 +1,38 @@
+node_modules
+.DS_Store
+.next
+out
+*.log
+dist
+.idea/
+*.map
+.env
+esm
+.rpt2_cache
+umd
+.toss-es5-cache.json
+code-owners.json
+.linaria-cache
+# .i18n
+
+# yarn v2
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/cache
+!.yarn/patches
+
+# npmrc
+.npmrc
+
+
+# 빌드시 같이 생성하므로 ignore에 추가합니다.
+sitemap.xml
+sitemap-0.xml
+
+# e2e - appium
+appium.log
+
+# vscode launch 설정
+.vscode/launch.json
