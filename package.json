@@ -18,15 +18,13 @@
   "workspaces": [
     "configs/*",
     "services/*",
-    "packages/*",
-    "devops/*"
+    "packages/*"
   ],
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "axios": "^1.2.0"
   },
   "devDependencies": {
-    "@types/jscodeshift": "^0.11.3",
     "@types/node": "18.15.13",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",

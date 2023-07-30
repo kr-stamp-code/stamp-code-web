@@ -29,7 +29,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@emotion/react", "virtual:adac09338133b366aca79ca86b01245365ce0876d97ac818e544ddd9a0a106d0cad912e89bb260e16215eb5fb90ed06aaa20ed86b8d3b179de2117c4f8f181a6#npm:11.11.1"],\
-            ["@types/jscodeshift", "npm:0.11.6"],\
             ["@types/node", "npm:18.15.13"],\
             ["@typescript-eslint/eslint-plugin", "virtual:adac09338133b366aca79ca86b01245365ce0876d97ac818e544ddd9a0a106d0cad912e89bb260e16215eb5fb90ed06aaa20ed86b8d3b179de2117c4f8f181a6#npm:5.60.1"],\
             ["@typescript-eslint/parser", "virtual:adac09338133b366aca79ca86b01245365ce0876d97ac818e544ddd9a0a106d0cad912e89bb260e16215eb5fb90ed06aaa20ed86b8d3b179de2117c4f8f181a6#npm:5.60.1"],\
@@ -483,17 +482,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["@types/jscodeshift", [\
-        ["npm:0.11.6", {\
-          "packageLocation": "./.yarn/cache/@types-jscodeshift-npm-0.11.6-a21a2655b0-418d34488f.zip/node_modules/@types/jscodeshift/",\
-          "packageDependencies": [\
-            ["@types/jscodeshift", "npm:0.11.6"],\
-            ["ast-types", "npm:0.14.2"],\
-            ["recast", "npm:0.20.5"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["@types/json-schema", [\
         ["npm:7.0.12", {\
           "packageLocation": "./.yarn/cache/@types-json-schema-npm-7.0.12-f05cfc0e99-00239e9723.zip/node_modules/@types/json-schema/",\
@@ -927,16 +915,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["es-abstract", "npm:1.21.2"],\
             ["es-shim-unscopables", "npm:1.0.0"],\
             ["get-intrinsic", "npm:1.2.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["ast-types", [\
-        ["npm:0.14.2", {\
-          "packageLocation": "./.yarn/cache/ast-types-npm-0.14.2-43c4ac4b0d-8674a77307.zip/node_modules/ast-types/",\
-          "packageDependencies": [\
-            ["ast-types", "npm:0.14.2"],\
-            ["tslib", "npm:2.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1795,15 +1773,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["acorn", "npm:8.9.0"],\
             ["acorn-jsx", "virtual:5fc9506cdac3b623f10b3f7adb0b64c62d2c6059855d74020d649d3c7df60271229590b28e7061203e031c21cd88cfd7344e13902ceb1f7776b1da6a18ef4ad8#npm:5.3.2"],\
             ["eslint-visitor-keys", "npm:3.4.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["esprima", [\
-        ["npm:4.0.1", {\
-          "packageLocation": "./.yarn/cache/esprima-npm-4.0.1-1084e98778-b45bc805a6.zip/node_modules/esprima/",\
-          "packageDependencies": [\
-            ["esprima", "npm:4.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3098,19 +3067,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["recast", [\
-        ["npm:0.20.5", {\
-          "packageLocation": "./.yarn/cache/recast-npm-0.20.5-35a50e82d9-14c35115cd.zip/node_modules/recast/",\
-          "packageDependencies": [\
-            ["recast", "npm:0.20.5"],\
-            ["ast-types", "npm:0.14.2"],\
-            ["esprima", "npm:4.0.1"],\
-            ["source-map", "npm:0.6.1"],\
-            ["tslib", "npm:2.6.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["regenerator-runtime", [\
         ["npm:0.13.11", {\
           "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.11-90bf536060-27481628d2.zip/node_modules/regenerator-runtime/",\
@@ -3278,13 +3234,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map", "npm:0.5.7"]\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["npm:0.6.1", {\
-          "packageLocation": "./.yarn/cache/source-map-npm-0.6.1-1a3621db16-59ce8640cf.zip/node_modules/source-map/",\
-          "packageDependencies": [\
-            ["source-map", "npm:0.6.1"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["stamp-code", [\
@@ -3293,7 +3242,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["stamp-code", "workspace:."],\
             ["@emotion/react", "virtual:adac09338133b366aca79ca86b01245365ce0876d97ac818e544ddd9a0a106d0cad912e89bb260e16215eb5fb90ed06aaa20ed86b8d3b179de2117c4f8f181a6#npm:11.11.1"],\
-            ["@types/jscodeshift", "npm:0.11.6"],\
             ["@types/node", "npm:18.15.13"],\
             ["@typescript-eslint/eslint-plugin", "virtual:adac09338133b366aca79ca86b01245365ce0876d97ac818e544ddd9a0a106d0cad912e89bb260e16215eb5fb90ed06aaa20ed86b8d3b179de2117c4f8f181a6#npm:5.60.1"],\
             ["@typescript-eslint/parser", "virtual:adac09338133b366aca79ca86b01245365ce0876d97ac818e544ddd9a0a106d0cad912e89bb260e16215eb5fb90ed06aaa20ed86b8d3b179de2117c4f8f181a6#npm:5.60.1"],\
@@ -3525,13 +3473,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tslib-npm-1.14.1-102499115e-dbe628ef87.zip/node_modules/tslib/",\
           "packageDependencies": [\
             ["tslib", "npm:1.14.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:2.6.0", {\
-          "packageLocation": "./.yarn/cache/tslib-npm-2.6.0-4d336a6824-c01066038f.zip/node_modules/tslib/",\
-          "packageDependencies": [\
-            ["tslib", "npm:2.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
