@@ -18,7 +18,8 @@
   "workspaces": [
     "configs/*",
     "services/*",
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "dependencies": {
     "@emotion/react": "^11.11.1",
