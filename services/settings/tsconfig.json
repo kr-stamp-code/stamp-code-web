@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.service.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "noUncheckedIndexedAccess": true,
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
