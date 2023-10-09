@@ -10,9 +10,7 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "new-service": "scripts/new-service.sh",
     "postinstall": "husky install"
   },
   "workspaces": [
